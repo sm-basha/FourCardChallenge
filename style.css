@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.title {
+  padding: 40px 10px;
+  text-align: center;
+  line-height: 2 rem;
+  width: 550px;
+  margin: auto;
+}
+p{
+  text-align: left;
+
+}
+h1 {
+  color: hsl(234, 12%, 34%);
+}
+
+.title p, p,h6 {
+  color: hsl(229, 6%, 66%);
+}
+
+img {
+  float: right;
+  padding-top: 35px;
+  padding-right: 15px;
+}
+
+.box {
+  display: inline-block;
+  height: 266px;
+  width: 390px;
+  margin: 16px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  padding: 35px;
+}
+
+.super {
+  border-top: solid hsl(180, 62%, 55%);
+
+}
+
+.team {
+  border-top: solid hsl(0, 78%, 62%);
+
+}
+
+.karma {
+  border-top: solid hsl(34, 97%, 64%);
+
+}
+
+.calc {
+  border-top: solid hsl(212, 86%, 64%);}
+
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+/* (max-width:1300px) and */
+
+@media  (min-width:1362px) {
+  .attribution{
+    margin-top: 700px;
+  }
+  .super {
+    position: absolute;
+    margin-top: 144px;
+    margin-left: -69px;
+  }
+
+  .team {
+    position: absolute;
+    margin-left: 362px;
+  }
+
+  .karma {
+    position: absolute;
+    margin-top: 323px;
+    margin-left: 362px;
+  }
+
+  .calc {
+    position: absolute;
+    margin-left: 792px;
+    margin-top: 144px;
+  }
+}
+
+@media (max-width:1300px) {
+
+  .container{
+  text-align: center;
+  }
+
+
+}
